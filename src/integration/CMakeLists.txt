@@ -16,4 +16,6 @@ target_include_directories(integration
 target_link_libraries(integration
         PUBLIC
         Bomberman::Application
+        PRIVATE
+        ProjectWarnings
 )

@@ -23,4 +23,6 @@ target_link_libraries(presentation
         PUBLIC
         Bomberman::Application
         ftxui::ftxui
+        PRIVATE
+        ProjectWarnings
 )

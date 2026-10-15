@@ -5,7 +5,9 @@ set(CMAKE_CXX_STANDARD 20)
 set(CMAKE_CXX_STANDARD_REQUIRED ON)
 set(CMAKE_CXX_EXTENSIONS OFF)
 
-if(WIN32)
+include(ProjectWarnings.cmake)
+
+if(WIN32) # todo: remove this
     add_library(Curses::Curses STATIC IMPORTED)
     set_target_properties(Curses::Curses PROPERTIES
         IMPORTED_LOCATION "C:/pdcurses/lib/pdcurses.lib"

@@ -18,4 +18,5 @@ target_link_libraries(CleanBomberman
         Bomberman::Application
         Bomberman::Integration
         Bomberman::Presentation
+        ProjectWarnings
 )

@@ -1,5 +1,6 @@
 #pragma once
-#include "curses_wrapper.hpp"
+
+#include "../../curses_wrapper.hpp"
 #include <string>
 
 class View
